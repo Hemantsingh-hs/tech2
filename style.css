@@ -1,0 +1,551 @@
+@media (max-width: 768px) {
+    .topbar {
+        text-align: center;
+        /* Center text for smaller screens */
+    
+    };
+}
+
+@media (max-width: 768px) {
+    .topbar {
+        text-align: center;
+    }
+    .cont {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar-item {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .navbar-item .dropdown {
+        min-width: 100%;
+        left: 0;
+    }
+    .search-box {
+        text-align: center;
+    }
+    .col2 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .female {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+.topbar {
+    text-align: center;
+    padding: 10px; /* Add some padding for better spacing */
+}
+.cont {
+    text-align: center;
+    margin-top: 10px;
+}
+.contact-info p {
+    margin: 0; /* Remove margin for better spacing */
+}
+.contact-info a {
+    display: block; /* Make links block-level for better spacing */
+    margin-top: 5px; /* Add some spacing between links */
+}
+.cont a {
+    display: inline; /* Reset link display to inline */
+    margin: 0 10px; /* Add spacing between phone, WhatsApp, and email links */
+}
+.dail {
+    display: inline; /* Reset image display to inline */
+    vertical-align: middle; /* Align image vertically with text */
+    margin-right: 5px; /* Add some spacing between icon and text */
+}
+}
+/* Your existing styles here */
+
+/* Updated styles for responsiveness */
+@media (max-width: 768px) {
+.topbar {
+    text-align: center;
+    padding: 10px;
+}
+.cont {
+    text-align: center;
+    margin-top: 10px;
+}
+.contact-info p {
+    margin: 0;
+}
+.contact-info a {
+    display: block;
+    margin-top: 5px;
+}
+.cont a {
+    display: inline;
+    margin: 0 10px;
+}
+.dail {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Adjust logo and search box */
+.logo-left {
+    width: 100%; /* Make the logo span the entire width */
+    margin: 0; /* Remove margin */
+}
+.search-box {
+    width: 100%; /* Make the search box span the entire width */
+    margin-top: 10px; /* Add spacing below the search box */
+}
+
+/* Center the navigation items */
+.navbar {
+    justify-content: center;
+}
+.navbar-item {
+    margin-right: 10px; /* Reduce margin between items */
+}
+.order-button {
+    margin-top: 10px; /* Add spacing below the order button */
+}
+}
+/* Your existing styles here */
+
+/* Updated styles for responsiveness */
+@media (max-width: 768px) {
+.topbar {
+    text-align: center;
+    padding: 10px;
+}
+.cont {
+    text-align: center;
+    margin-top: 10px;
+}
+.contact-info p {
+    margin: 0;
+}
+.contact-info a {
+    display: block;
+    margin-top: 5px;
+}
+.cont a {
+    display: inline;
+    margin: 0 10px;
+}
+.dail {
+    display: inline;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Adjust logo and search box */
+.logo-left {
+    width: 100%;
+    max-width: 145px; /* Set a maximum width for the logo */
+    margin: 0;
+}
+.search-box {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Center the navigation items */
+.navbar {
+    justify-content: center;
+}
+.navbar-item {
+    margin-right: 10px;
+}
+.order-button {
+    margin-top: 10px;
+}
+}
+
+/* Your existing styles here */
+
+/* Updated styles for responsiveness */
+@media (max-width: 768px) {
+.topbar {
+    text-align: center;
+    padding: 10px;
+}
+.contact-info {
+    display: block;
+    text-align: center;
+}
+.cont a {
+    display: block;
+    margin: 10px 0;
+}
+.dail {
+    display: inline;
+    margin-right: 5px;
+}
+
+header {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+}
+.logo-left {
+    margin: 0 0 20px; /* Add spacing below the logo */
+}
+.menu-button {
+    order: 1; /* Reorder the menu button */
+}
+.nav-links {
+    display: none; /* Hide navigation links by default */
+    order: 2; /* Reorder navigation links */
+}
+.search-box {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Show navigation links when the menu button is clicked */
+#toggle-menu:checked + .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* Add styles to your navigation links as needed */
+}
+
+/* Your existing styles here */
+
+/* Updated styles for responsiveness */
+@media (max-width: 768px) {
+.topbar {
+    text-align: center;
+    padding: 10px;
+}
+.contact-info {
+    display: block;
+    text-align: center;
+}
+.cont a {
+    display: block;
+    margin: 10px 0;
+}
+.dail {
+    display: inline;
+    margin-right: 5px;
+}
+
+header {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+}
+.logo-left {
+    margin: 0 0 20px; /* Add spacing below the logo */
+}
+.menu-button {
+    order: 1; /* Reorder the menu button */
+}
+.nav-links {
+    display: none; /* Hide navigation links by default */
+    order: 2; /* Reorder navigation links */
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.nav-links li {
+    margin: 10px 0;
+}
+.search-box {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Show navigation links when the menu button is checked */
+#toggle-menu:checked + .menu-button .nav-links {
+    display: block;
+}
+/* Style for the menu label */
+#menu-label {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+/* Style for the dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff; /* Background color for the dropdown */
+}
+.navbar-item:hover .dropdown {
+    display: block;
+}
+.dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #2A2A2A;
+}
+.dropdown a:hover {
+    background-color: #75cd81;
+    opacity: 80%;
+}
+}
+
+
+
+
+
+.topbar{
+    margin-top: 0;
+}
+html{
+    margin-top: 0;
+}
+
+.contact-info {
+
+    background: #2A5E31 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    display: flex;
+    font: normal normal normal 15px/16px Open Sans;
+    margin: 0;
+    margin-top: 0;
+
+
+
+}
+
+.cont {
+    text-align: end;
+    color: aliceblue;
+    top: 10px;
+    left: 1220px;
+    width: 602px;
+    height: 20px;
+    font-size: 10px;
+    justify-content: right;
+    text-align: right; 
+    margin-top: 10px;
+  
+
+
+
+}
+.cont ,a{
+    text-decoration: none;
+}
+
+.contact-info p {
+    margin-right: 5%;
+    margin-left: 30px;
+}
+
+
+.cont a,
+img {
+    width: 15px;
+    height: 16px;
+    color: #FFFFFF;
+    text-align: end;
+    justify-content: end;
+    /* margin-top:px; */
+
+
+
+}
+.dail{
+   text-align: center;
+   
+
+}
+
+/* logo bar  */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: #333; */
+    color: #fff;
+}
+
+/* Logo on the left */
+.logo-left {
+
+    top: 61px;
+    left: 98px;
+    width: 145px;
+    height: 45px;
+    margin-right: 60%;
+}
+
+/* Login and cart logos */
+.login-logo,
+.cart-logo {
+    width: 30px;
+    /* Adjust the width as needed */
+    margin-right: 10px;
+    /* Adjust the spacing between logos */
+    /* justify-content: end; */
+
+
+
+}
+
+/* Search box on the right */
+.search-box {
+    flex: 1;
+    /* Takes up remaining space */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* nav bar  */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #333; */
+    /* color:black; */
+    color: #2A2A2A;
+    padding: 10px;
+}
+
+/* Style for navbar items */
+.navbar-item {
+    position: relative;
+    margin-right: 20px;
+}
+
+/* Style for the dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    /* background-color: #333; */
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #2A2A2A;
+
+    justify-content: space-between;
+}
+
+.dropdown a:hover {
+    background-color: #75cd81;
+    opacity: 80%;
+
+}
+
+/* Style for the dropdown items */
+.dropdown-item {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+/* Style for the order button */
+.order-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+
+}
+
+/* Show the dropdown when hovering over the navbar item */
+.navbar-item:hover .dropdown {
+    display: block;
+}
+
+/* heading 
+ */
+
+
+.heading h3 {
+    font-size: 40px;
+    text-align: left;
+    font: normal normal normal 35px/35px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-left: 20px;
+
+}
+
+/* card style  */
+
+
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    /* border: 1px solid #ccc; */
+    border-radius:0;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    width: 300px;
+    margin-left: 30px;
+
+
+}
+
+.logob {
+    width: 40px;
+    /* Adjust the width of the logo as needed */
+    height: auto;
+    margin-right: 20px;
+}
+
+.text-content {
+    flex-grow: 1;
+    text-align: left;
+    font: normal normal normal 15px/18px Open Sans;
+    letter-spacing: 0px;
+    color: #5E6282;
+}
+.female {
+    width: 400px;
+    height: 400px;
+}
+.col2  {
+    width: 500px;
+    margin-left: 100px;
+}
+.row{
+    display: flex;
+    align-items: center;
+ 
+}
